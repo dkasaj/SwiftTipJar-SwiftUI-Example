@@ -10,37 +10,39 @@ import SwiftTipJar
 
 struct ContentView: View {
     @EnvironmentObject var tipJar: SwiftTipJar
-    var tipsIdentifiers: [String] // Will get this populated by the @main App
-
     @State private var showingThankYou = false
 
     var body: some View {
         VStack(spacing: 24) {
-            ForEach(tipsIdentifiers, id:\.self) { identifier in
+
+            ForEach(tipJar.tips, id:\.identifier) { tip in
                 Button {
-                    tipJar.initiatePurchase(productIdentifier: identifier)
+                    tipJar.initiatePurchase(productIdentifier: tip.identifier)
                 } label: {
-                    Text("\(tipJar.localizedTitleFor(identifier: identifier)!) \(tipJar.localizedPriceFor(identifier: identifier)!)")
-                    // Will crash if you forgot to set up identifiers in StoreKit configuration file or ASC
+                    Text("\(tip.displayName) \(tip.displayPrice)")
                 }
             }
-        }
-        .sheet(isPresented: $showingThankYou) {
-            ThankYou()
+
+            Text("Thank you!")
+                .bold()
+                .padding(.top, 24)
+                .opacity(showingThankYou ? 1 : 0)
+
         }
         .onAppear {
             tipJar.transactionSuccessfulBlock = {
                 showingThankYou = true
             }
             tipJar.transactionFailedBlock = {
-                // best if nothing on iOS - user did tap cancel
+                // No need to do anything, user did tap cancel
             }
         }
+        .padding(24)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(tipsIdentifiers: [])
+        ContentView()
     }
 }

@@ -13,7 +13,6 @@
 		654E782F2807498C00A2079E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E782E2807498C00A2079E /* Preview Assets.xcassets */; };
 		654E7837280749CF00A2079E /* SwiftTipJar in Frameworks */ = {isa = PBXBuildFile; productRef = 654E7836280749CF00A2079E /* SwiftTipJar */; };
 		654E7839280749E700A2079E /* ExampleConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 654E7838280749E700A2079E /* ExampleConfiguration.storekit */; };
-		654E783B280755B600A2079E /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E783A280755B600A2079E /* ThankYou.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		654E782B2807498C00A2079E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654E782E2807498C00A2079E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		654E7838280749E700A2079E /* ExampleConfiguration.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExampleConfiguration.storekit; sourceTree = "<group>"; };
-		654E783A280755B600A2079E /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +39,6 @@
 		654E781B2807498B00A2079E = {
 			isa = PBXGroup;
 			children = (
-				654E7838280749E700A2079E /* ExampleConfiguration.storekit */,
 				654E78262807498B00A2079E /* SwiftTipJarExample */,
 				654E78252807498B00A2079E /* Products */,
 			);
@@ -58,9 +55,9 @@
 		654E78262807498B00A2079E /* SwiftTipJarExample */ = {
 			isa = PBXGroup;
 			children = (
+				654E7838280749E700A2079E /* ExampleConfiguration.storekit */,
 				654E78272807498B00A2079E /* SwiftTipJarExampleApp.swift */,
 				654E78292807498B00A2079E /* ContentView.swift */,
-				654E783A280755B600A2079E /* ThankYou.swift */,
 				654E782B2807498C00A2079E /* Assets.xcassets */,
 				654E782D2807498C00A2079E /* Preview Content */,
 			);
@@ -152,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654E783B280755B600A2079E /* ThankYou.swift in Sources */,
 				654E782A2807498B00A2079E /* ContentView.swift in Sources */,
 				654E78282807498B00A2079E /* SwiftTipJarExampleApp.swift in Sources */,
 			);

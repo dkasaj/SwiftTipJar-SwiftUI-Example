@@ -10,20 +10,23 @@ import SwiftTipJar
 
 @main
 struct SwiftTipJarExampleApp: App {
-    let tipsIdentifiers = ["com.test.smallTip", "com.test.mediumTip", "com.test.largeTip", "com.test.hugeTip"]
     let tipJar: SwiftTipJar
+
     init() {
-        tipJar = SwiftTipJar(tipsIdentifiers: Set(tipsIdentifiers))
-        tipJar.productsRequest?.start()
+        tipJar = SwiftTipJar(tipsIdentifiers: Set([
+            "com.test.smallTip",
+            "com.test.mediumTip",
+            "com.test.largeTip",
+            "com.test.hugeTip"
+        ]))
         tipJar.startObservingPaymentQueue()
+        tipJar.productsRequest?.start()
     }
 
     var body: some Scene {
         WindowGroup {
-            ContentView(tipsIdentifiers: tipsIdentifiers)
+            ContentView()
                 .environmentObject(tipJar)
         }
     }
 }
-
-extension SwiftTipJar: ObservableObject { }

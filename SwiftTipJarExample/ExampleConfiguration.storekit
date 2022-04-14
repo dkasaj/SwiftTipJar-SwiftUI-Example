@@ -20,21 +20,6 @@
       "type" : "Consumable"
     },
     {
-      "displayPrice" : "2.99",
-      "familyShareable" : false,
-      "internalID" : "88F9FD9A",
-      "localizations" : [
-        {
-          "description" : "",
-          "displayName" : "Large tip",
-          "locale" : "en_US"
-        }
-      ],
-      "productID" : "com.test.largeTip",
-      "referenceName" : "Large tip",
-      "type" : "Consumable"
-    },
-    {
       "displayPrice" : "1.99",
       "familyShareable" : false,
       "internalID" : "AA850736",
@@ -47,6 +32,21 @@
       ],
       "productID" : "com.test.mediumTip",
       "referenceName" : "Medium tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "88F9FD9A",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Large tip",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.test.largeTip",
+      "referenceName" : "Large tip",
       "type" : "Consumable"
     },
     {
