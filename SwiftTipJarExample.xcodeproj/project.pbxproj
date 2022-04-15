@@ -22,6 +22,11 @@
 		654E782B2807498C00A2079E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654E782E2807498C00A2079E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		654E7838280749E700A2079E /* ExampleConfiguration.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExampleConfiguration.storekit; sourceTree = "<group>"; };
+		65909820280933690072EE11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6590982B280945450072EE11 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		6590982C280945450072EE11 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		6590982D280945450072EE11 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6590982E280945450072EE11 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,8 @@
 				654E78292807498B00A2079E /* ContentView.swift */,
 				654E782B2807498C00A2079E /* Assets.xcassets */,
 				654E782D2807498C00A2079E /* Preview Content */,
+				65909820280933690072EE11 /* README.md */,
+				6590982A280945450072EE11 /* Screenshots */,
 			);
 			path = SwiftTipJarExample;
 			sourceTree = "<group>";
@@ -70,6 +77,17 @@
 				654E782E2807498C00A2079E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6590982A280945450072EE11 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6590982B280945450072EE11 /* 4.png */,
+				6590982C280945450072EE11 /* 2.png */,
+				6590982D280945450072EE11 /* 3.png */,
+				6590982E280945450072EE11 /* 1.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
