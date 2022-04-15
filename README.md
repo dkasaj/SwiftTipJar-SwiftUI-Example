@@ -5,10 +5,9 @@ This sample code demonstrates ease of use for [SwiftTipJar](https://github.com/d
 Tip jars on Apple platforms are a concept of letting users make in-app purchases to show appreciation for the app/developer. These don't actually unlock any additional features.
 
 ## Demo app screenshots
-![Choice of tips](Screenshots/1.png)
-![System UI for purchasing](Screenshots/2.png)
-![Successful purchase](Screenshots/3.png)
-![Thank you message](Screenshots/4.png)
+| Choice of tips | System UI for purchasing | Successful purchase | Thank you message |
+| - | - | - | - |
+![Choice of tips](Screenshots/1.png) | ![System UI for purchasing](Screenshots/2.png) | ![Successful purchase](Screenshots/3.png) | ![Thank you message](Screenshots/4.png)
 
 ## Usage
 1. Init TipJar with identifiers for In-App Purchases you wish to offer
