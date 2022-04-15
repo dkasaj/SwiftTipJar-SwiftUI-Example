@@ -44,6 +44,8 @@
 		654E781B2807498B00A2079E = {
 			isa = PBXGroup;
 			children = (
+				65909820280933690072EE11 /* README.md */,
+				6590982A280945450072EE11 /* Screenshots */,
 				654E78262807498B00A2079E /* SwiftTipJarExample */,
 				654E78252807498B00A2079E /* Products */,
 			);
@@ -65,8 +67,6 @@
 				654E78292807498B00A2079E /* ContentView.swift */,
 				654E782B2807498C00A2079E /* Assets.xcassets */,
 				654E782D2807498C00A2079E /* Preview Content */,
-				65909820280933690072EE11 /* README.md */,
-				6590982A280945450072EE11 /* Screenshots */,
 			);
 			path = SwiftTipJarExample;
 			sourceTree = "<group>";
