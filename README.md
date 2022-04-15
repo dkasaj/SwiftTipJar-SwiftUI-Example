@@ -45,13 +45,13 @@ public final class Tip {
 With tip jars, it's even natural to do nothing if a transaction fails.  
 ```swift
 .onAppear {
-            tipJar.transactionSuccessfulBlock = {
-                showingThankYou = true
-            }
-            tipJar.transactionFailedBlock = {
-                // No need to do anything, user did tap cancel
-            }
-        }
+  tipJar.transactionSuccessfulBlock = {
+    showingThankYou = true
+  }
+  tipJar.transactionFailedBlock = {
+    // No need to do anything, user did tap cancel
+  }
+}
 ```
 6. Set up button(s) to initiate a purchase to trigger the action _initiatePurchase(productIdentifier:)_ 
 ```swift
