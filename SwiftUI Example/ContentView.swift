@@ -31,7 +31,10 @@ struct ContentView: View {
         }
         .onAppear {
             tipJar.transactionSuccessfulBlock = {
-                showingThankYou = true
+                // Will be called from background, but manipulates UI - has to run on main queue
+                DispatchQueue.main.async {
+                    self.showingThankYou = true
+                }
             }
             tipJar.transactionFailedBlock = {
                 // No need to do anything, user did tap cancel
