@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		654E78242807498B00A2079E /* SwiftTipJarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTipJarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E78242807498B00A2079E /* SwiftTipJar SwiftUI Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftTipJar SwiftUI Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654E78272807498B00A2079E /* SwiftTipJarExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTipJarExampleApp.swift; sourceTree = "<group>"; };
 		654E78292807498B00A2079E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		654E782B2807498C00A2079E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			children = (
 				65909820280933690072EE11 /* README.md */,
 				6590982A280945450072EE11 /* Screenshots */,
-				654E78262807498B00A2079E /* SwiftTipJarExample */,
+				654E78262807498B00A2079E /* SwiftUI Example */,
 				654E78252807498B00A2079E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		654E78252807498B00A2079E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				654E78242807498B00A2079E /* SwiftTipJarExample.app */,
+				654E78242807498B00A2079E /* SwiftTipJar SwiftUI Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		654E78262807498B00A2079E /* SwiftTipJarExample */ = {
+		654E78262807498B00A2079E /* SwiftUI Example */ = {
 			isa = PBXGroup;
 			children = (
 				654E7838280749E700A2079E /* ExampleConfiguration.storekit */,
@@ -68,7 +68,7 @@
 				654E782B2807498C00A2079E /* Assets.xcassets */,
 				654E782D2807498C00A2079E /* Preview Content */,
 			);
-			path = SwiftTipJarExample;
+			path = "SwiftUI Example";
 			sourceTree = "<group>";
 		};
 		654E782D2807498C00A2079E /* Preview Content */ = {
@@ -82,10 +82,10 @@
 		6590982A280945450072EE11 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				6590982B280945450072EE11 /* 4.png */,
+				6590982E280945450072EE11 /* 1.png */,
 				6590982C280945450072EE11 /* 2.png */,
 				6590982D280945450072EE11 /* 3.png */,
-				6590982E280945450072EE11 /* 1.png */,
+				6590982B280945450072EE11 /* 4.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		654E78232807498B00A2079E /* SwiftTipJarExample */ = {
+		654E78232807498B00A2079E /* SwiftUI Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 654E78322807498C00A2079E /* Build configuration list for PBXNativeTarget "SwiftTipJarExample" */;
+			buildConfigurationList = 654E78322807498C00A2079E /* Build configuration list for PBXNativeTarget "SwiftUI Example" */;
 			buildPhases = (
 				654E78202807498B00A2079E /* Sources */,
 				654E78212807498B00A2079E /* Frameworks */,
@@ -105,12 +105,12 @@
 			);
 			dependencies = (
 			);
-			name = SwiftTipJarExample;
+			name = "SwiftUI Example";
 			packageProductDependencies = (
 				654E7836280749CF00A2079E /* SwiftTipJar */,
 			);
 			productName = SwiftTipJarExample;
-			productReference = 654E78242807498B00A2079E /* SwiftTipJarExample.app */;
+			productReference = 654E78242807498B00A2079E /* SwiftTipJar SwiftUI Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 654E781F2807498B00A2079E /* Build configuration list for PBXProject "SwiftTipJarExample" */;
+			buildConfigurationList = 654E781F2807498B00A2079E /* Build configuration list for PBXProject "SwiftTipJar-SwiftUI-Example" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				654E78232807498B00A2079E /* SwiftTipJarExample */,
+				654E78232807498B00A2079E /* SwiftUI Example */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftTipJarExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Example/Preview Content\"";
 				DEVELOPMENT_TEAM = 99C945DQTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,16 +305,17 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hr.ux-first.SwiftTipJarExample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.ux-first.SwiftTipJarExample.SwiftUI";
+				PRODUCT_NAME = "SwiftTipJar SwiftUI Example";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,7 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftTipJarExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Example/Preview Content\"";
 				DEVELOPMENT_TEAM = 99C945DQTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -334,23 +335,24 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hr.ux-first.SwiftTipJarExample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.ux-first.SwiftTipJarExample.SwiftUI";
+				PRODUCT_NAME = "SwiftTipJar SwiftUI Example";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		654E781F2807498B00A2079E /* Build configuration list for PBXProject "SwiftTipJarExample" */ = {
+		654E781F2807498B00A2079E /* Build configuration list for PBXProject "SwiftTipJar-SwiftUI-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				654E78302807498C00A2079E /* Debug */,
@@ -359,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		654E78322807498C00A2079E /* Build configuration list for PBXNativeTarget "SwiftTipJarExample" */ = {
+		654E78322807498C00A2079E /* Build configuration list for PBXNativeTarget "SwiftUI Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				654E78332807498C00A2079E /* Debug */,

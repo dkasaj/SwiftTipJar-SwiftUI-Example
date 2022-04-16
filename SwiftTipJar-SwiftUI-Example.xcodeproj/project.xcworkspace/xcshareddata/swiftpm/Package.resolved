@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swifttipjar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dkasaj/SwiftTipJar.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4f013fc82a46bb073ed86a13f7d1fd33ff727d7d"
+      }
+    }
+  ],
+  "version" : 2
+}
