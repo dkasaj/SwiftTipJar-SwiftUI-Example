@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6532223028F2AD4D005FC8E6 /* SwiftTipJar in Frameworks */ = {isa = PBXBuildFile; productRef = 6532222F28F2AD4D005FC8E6 /* SwiftTipJar */; };
 		654E78282807498B00A2079E /* SwiftTipJarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E78272807498B00A2079E /* SwiftTipJarExampleApp.swift */; };
 		654E782A2807498B00A2079E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E78292807498B00A2079E /* ContentView.swift */; };
 		654E782C2807498C00A2079E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E782B2807498C00A2079E /* Assets.xcassets */; };
 		654E782F2807498C00A2079E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E782E2807498C00A2079E /* Preview Assets.xcassets */; };
-		654E7837280749CF00A2079E /* SwiftTipJar in Frameworks */ = {isa = PBXBuildFile; productRef = 654E7836280749CF00A2079E /* SwiftTipJar */; };
 		654E7839280749E700A2079E /* ExampleConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 654E7838280749E700A2079E /* ExampleConfiguration.storekit */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654E7837280749CF00A2079E /* SwiftTipJar in Frameworks */,
+				6532223028F2AD4D005FC8E6 /* SwiftTipJar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 			);
 			name = "SwiftUI Example";
 			packageProductDependencies = (
-				654E7836280749CF00A2079E /* SwiftTipJar */,
+				6532222F28F2AD4D005FC8E6 /* SwiftTipJar */,
 			);
 			productName = SwiftTipJarExample;
 			productReference = 654E78242807498B00A2079E /* SwiftTipJar SwiftUI Example.app */;
@@ -138,7 +138,7 @@
 			);
 			mainGroup = 654E781B2807498B00A2079E;
 			packageReferences = (
-				654E7835280749CF00A2079E /* XCRemoteSwiftPackageReference "SwiftTipJar" */,
+				6532222E28F2AD4D005FC8E6 /* XCRemoteSwiftPackageReference "SwiftTipJar" */,
 			);
 			productRefGroup = 654E78252807498B00A2079E /* Products */;
 			projectDirPath = "";
@@ -373,20 +373,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		654E7835280749CF00A2079E /* XCRemoteSwiftPackageReference "SwiftTipJar" */ = {
+		6532222E28F2AD4D005FC8E6 /* XCRemoteSwiftPackageReference "SwiftTipJar" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dkasaj/SwiftTipJar.git";
+			repositoryURL = "https://github.com/dkasaj/SwiftTipJar";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		654E7836280749CF00A2079E /* SwiftTipJar */ = {
+		6532222F28F2AD4D005FC8E6 /* SwiftTipJar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 654E7835280749CF00A2079E /* XCRemoteSwiftPackageReference "SwiftTipJar" */;
+			package = 6532222E28F2AD4D005FC8E6 /* XCRemoteSwiftPackageReference "SwiftTipJar" */;
 			productName = SwiftTipJar;
 		};
 /* End XCSwiftPackageProductDependency section */
