@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/dkasaj/SwiftTipJar.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "4f013fc82a46bb073ed86a13f7d1fd33ff727d7d"
+        "revision" : "03a98386da39ebd38a190b3ea5e5909e4bb3a0b7",
+        "version" : "1.1.0"
       }
     }
   ],
